@@ -1,0 +1,34 @@
+{
+  "business_summary": {
+    "total_revenue": 6060.0,
+    "top_category_product": "N/A",
+    "key_region": "North (2540.00, 41.91% of total revenue)"
+  },
+  "insights": [
+    "The North region contributes 41.91% of total revenue, indicating it is the most lucrative region.",
+    "Average sales per transaction is $1212.00, with sales values ranging from $980.00 to $1430.00.",
+    "A total of 2 out of 5 transactions were recorded in the North region, highlighting regional concentration."
+  ],
+  "visualizations": [
+    {
+      "type": "bar",
+      "x": "region",
+      "y": "sales"
+    },
+    {
+      "type": "bar",
+      "x": "date",
+      "y": "sales"
+    },
+    {
+      "type": "line",
+      "x": "date",
+      "y": "units"
+    }
+  ],
+  "recommendations": [
+    "Focus marketing efforts in the North region to leverage its strong performance.",
+    "Investigate sales strategies employed on 2026-04-10 when revenue peaked at $1200.",
+    "Explore opportunities to boost sales in the South and East regions where performance is currently lower."
+  ]
+}

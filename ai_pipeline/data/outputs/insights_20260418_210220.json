@@ -1,0 +1,36 @@
+{
+  "business_summary": {
+    "total_revenue": "1,003,908.79",
+    "top_category_product": "WHITE HANGING HEART T-LIGHT HOLDER (StockCode: 85123A)",
+    "key_region": "United Kingdom"
+  },
+  "insights": [
+    "The average quantity sold per invoice is 12.18, indicating robust transaction activity.",
+    "The total revenue generated from sales is approximately $1 million.",
+    "The top-selling product, the WHITE HANGING HEART T-LIGHT HOLDER, was sold 2,058 times.",
+    "UK sales account for 88.8% of the total sales, highlighting a heavy reliance on this market.",
+    "An outlier was found in the Quantity column with values exceeding standard shipping limits (max: 80,995 units)."
+  ],
+  "visualizations": [
+    {
+      "type": "bar",
+      "x": "Description",
+      "y": "Quantity"
+    },
+    {
+      "type": "line",
+      "x": "InvoiceDate",
+      "y": "UnitPrice"
+    },
+    {
+      "type": "bar",
+      "x": "Country",
+      "y": "CustomerID"
+    }
+  ],
+  "recommendations": [
+    "Focus marketing efforts on the UK region, where the highest sales volume is recorded.",
+    "Monitor inventory levels for the top-selling products to prevent stockouts.",
+    "Investigate the anomaly in the Quantity column to ensure it does not represent data entry errors that could skew sales reports."
+  ]
+}

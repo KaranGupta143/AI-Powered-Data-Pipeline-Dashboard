@@ -1,0 +1,34 @@
+{
+  "business_summary": {
+    "total_revenue": "$1,061,607.14",
+    "top_category_product": "WHITE HANGING HEART T-LIGHT HOLDER",
+    "key_region": "United Kingdom"
+  },
+  "insights": [
+    "Total quantity sold: 4,495,110 units, with average sale per invoice being 11.24 items.",
+    "Top 5 products by quantity sold account for 33% of all sales.",
+    "United Kingdom accounts for 88.8% of total sales, suggesting a highly concentrated customer base."
+  ],
+  "visualizations": [
+    {
+      "type": "bar",
+      "x": "Description",
+      "y": "Quantity"
+    },
+    {
+      "type": "line",
+      "x": "InvoiceDate",
+      "y": "Quantity"
+    },
+    {
+      "type": "bar",
+      "x": "Country",
+      "y": "Quantity"
+    }
+  ],
+  "recommendations": [
+    "Focus marketing efforts on the UK market to leverage the high number of customers.",
+    "Consider diversifying product offerings based on the top-selling items to enhance revenue streams.",
+    "Investigate outlier transactions with large quantities to ensure they are legitimate sales and assess risks."
+  ]
+}

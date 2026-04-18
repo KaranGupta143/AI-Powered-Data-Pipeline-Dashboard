@@ -1,0 +1,40 @@
+{
+  "business_summary": {
+    "total_revenue": 8278519.42,
+    "top_category_product": "WHITE HANGING HEART T-LIGHT HOLDER",
+    "key_region": "United Kingdom"
+  },
+  "insights": [
+    "Approximately 49.8% of total revenue comes from the top selling product: WHITE HANGING HEART T-LIGHT HOLDER with sales of 15.30 per unit.",
+    "The average revenue per transaction is $20.61, indicating moderate transaction levels.",
+    "A notable outlier in sales exists where a single transaction recorded a sales amount of $168,469.60, suggesting possible bulk purchase or error.",
+    "Total sales of negative $168,469.60 indicates returns or corrections that could skew the dataset and should be reviewed."
+  ],
+  "visualizations": [
+    {
+      "type": "bar",
+      "x": "Country",
+      "y": "Sales"
+    },
+    {
+      "type": "bar",
+      "x": "StockCode",
+      "y": "Sales"
+    },
+    {
+      "type": "line",
+      "x": "InvoiceDate",
+      "y": "Sales"
+    },
+    {
+      "type": "bar",
+      "x": "Description",
+      "y": "Sales"
+    }
+  ],
+  "recommendations": [
+    "Investigate the transaction with $168,469.60 sales to confirm if legitimate or erroneous.",
+    "Focus on increasing marketing efforts for top-selling products, particularly in the United Kingdom, as they make up a large share of revenue.",
+    "Consider segmenting the customer base by Country to optimize for specific regional sales performance."
+  ]
+}

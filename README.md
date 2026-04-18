@@ -234,6 +234,15 @@ Pipeline logs are written to the `ai_pipeline/logs/` folder.
 3. Use the scheduled runner if you want periodic insight generation.
 4. Review files in `ai_pipeline/data/outputs/` for generated reports.
 
+## Deployment
+
+This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+Note: the current app is built with Streamlit, so it is not a native Vercel deployment target.
+For the full dashboard, use a Streamlit-friendly host such as Streamlit Community Cloud, Render,
+Railway, or Hugging Face Spaces. If you want a Vercel deployment, the project would need a separate
+frontend layer and a backend service for the pipeline.
+
 ## What Recruiters Will Notice
 
 - Clear separation between ingestion, processing, AI analysis, and output stages
@@ -244,4 +253,4 @@ Pipeline logs are written to the `ai_pipeline/logs/` folder.
 
 ## License
 
-Add a license here if you plan to distribute the project publicly.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for the full text.

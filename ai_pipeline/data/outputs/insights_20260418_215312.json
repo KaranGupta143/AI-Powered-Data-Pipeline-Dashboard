@@ -1,0 +1,34 @@
+{
+  "business_summary": {
+    "total_revenue": "8,278,519.42",
+    "top_category_product": "WHITE HANGING HEART T-LIGHT HOLDER",
+    "key_region": "United Kingdom"
+  },
+  "insights": [
+    "The average revenue per invoice is approximately $20.61.",
+    "The United Kingdom accounts for 88.8% of total sales, with 356,728 invoices.",
+    "The top product, WHITE HANGING HEART T-LIGHT HOLDER, sold 2,065 times generating substantial revenue."
+  ],
+  "visualizations": [
+    {
+      "type": "bar",
+      "x": "StockCode",
+      "y": "Sales"
+    },
+    {
+      "type": "line",
+      "x": "InvoiceDate",
+      "y": "Sales"
+    },
+    {
+      "type": "bar",
+      "x": "Country",
+      "y": "Sales"
+    }
+  ],
+  "recommendations": [
+    "Focus marketing efforts on the United Kingdom, as it is the primary revenue source.",
+    "Consider expanding the product range similar to the top-selling item, WHITE HANGING HEART T-LIGHT HOLDER.",
+    "Monitor sales trends over time to identify peak periods for better inventory management."
+  ]
+}

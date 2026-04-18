@@ -1,0 +1,32 @@
+{
+  "business_summary": {
+    "total_revenue": 6060.0,
+    "top_category_product": "N/A",
+    "key_region": "North (41.91% of total revenue)"
+  },
+  "insights": [
+    "Total revenue of $6060.00 is derived from 5 rows of data, with an average revenue per row of $1212.00.",
+    "The North region contributes the highest revenue of $2540.00, accounting for 41.91% of the total revenue.",
+    "Sales data spans from 2026-04-10 to 2026-04-12, with a total sales range between $980 and $1430, indicating a variance of $450.",
+    "The average units sold per transaction is 24.2, with the maximum units sold being 29, suggesting potential for higher sales.",
+    "The sales figures have an approximate standard deviation of $179.08, indicating notable variability."
+  ],
+  "visualizations": [
+    {
+      "type": "bar",
+      "x": "region",
+      "y": "sales"
+    },
+    {
+      "type": "line",
+      "x": "date",
+      "y": "sales"
+    }
+  ],
+  "recommendations": [
+    "Focus on the North region for targeted marketing campaigns as it drives the highest revenue.",
+    "Analyze pricing strategies to identify potential for increasing the average sales value.",
+    "Consider product expansion or promotions in the South and East regions to balance revenue generation.",
+    "Monitor sales performance trends over time to capitalize on peak sales days."
+  ]
+}
