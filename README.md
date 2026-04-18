@@ -29,6 +29,11 @@ At a glance, the dashboard is designed to show:
 
 This makes the experience suitable for internal reporting, stakeholder reviews, and portfolio demos.
 
+## Demo Links
+
+- Local Demo: http://localhost:8502/
+- GitHub Repository: https://github.com/KaranGupta143/AI-Powered-Data-Pipeline-Dashboard
+
 ## Overview
 
 This project combines a scheduled Python pipeline with an interactive Streamlit dashboard. It is designed to:
